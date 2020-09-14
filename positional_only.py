@@ -1,5 +1,8 @@
 "/usr/bin/python3.8"
+
 def positional(arg, /):
 	print("Love you mama ", arg)
-positional("Arame FALL")
+if __name__=='__main__':
+	positional("Arame FALL")
+
 
